@@ -47,7 +47,7 @@ const Header = props => (
               props.onOpenArticle('team')
             }}
           >
-            Our Team
+            Services
           </button>
         </li>
         <li>

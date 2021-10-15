@@ -1,8 +1,13 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.png'
-import pic02 from '../images/pic01.png'
-import pic03 from '../images/pic01.png'
+
+// services
+import door from '../images/doortodoor.png'
+import fulload from '../images/fulload.jpeg'
+import parcel from '../images/parcel.jpeg'
+import timebond from '../images/timebond.jpg'
+// Clients
 import almonard from '../images/Client-logos/Almonard-logo.png'
 import amaraRaja from '../images/Client-logos/amara-raja.png'
 import argroup from '../images/Client-logos/argroup_white.png'
@@ -42,25 +47,31 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Indore Gujrat Road Carrier Company is a leading name in providing
+            reliable Transportation Services. Established in Indore under the
+            able leadership of <u>"Mr. Hari Singh Jhooria"</u>, we have created
+            a distinct place in market for our quality services. Our board of
+            directors have more than 20 years of experience in this domain whose
+            vast knowledge and strong business acumen help us to cross millions
+            of barriers and reach the height of success. Being a transport
+            company, we are having highly efficient network between{' '}
+            <u>Indore and Gujrat</u> so that our business operations are
+            performed smoothly without any hindrance, on time. We are well
+            equipped with a team of dedicated and expert professionals, who are
+            engaged in providing customized services to our esteemed clients.
+            Customers are the central point of our organization whose
+            satisfaction is treated as the major aspect of our services.We
+            emphasize on the constant innovation so that new services can be
+            developed as well as existing range can be improved.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <h3>Features</h3>
+          <ul>
+            <li>On time delivery</li>
+            <li>Safe and efficient transportation</li>
+            <li>Minimal turn around time</li>
+            <li>Proper documentation </li>
+            <li>Value added services</li>
+          </ul>
           {close}
         </article>
 
@@ -95,19 +106,13 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Our Team</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h2 className="major">Services</h2>
+          <ol className="">
+            <li>Full/Part Load Services</li>
+            <li>Parcel Services</li>
+            <li>Door to Door Services</li>
+            <li>Time Bond Services</li>
+          </ol>
           {close}
         </article>
 
@@ -212,7 +217,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/codebushi/IGC - Indore Gujrat Road Carrier"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
