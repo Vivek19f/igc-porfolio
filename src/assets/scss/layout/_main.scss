@@ -27,6 +27,7 @@
         'transform #{_duration(article)} ease-in-out'
       )
     );
+
     @include padding(2.5rem, 2.5rem, (2rem, 0, 1rem, 0));
     position: relative;
     width: 40rem;
@@ -46,6 +47,15 @@
 
     &.active {
       display: block !important;
+      ::-webkit-scrollbar {
+        width: 5px;
+      }
+      ::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: rgb(179, 179, 179);
+      }
     }
 
     .services {

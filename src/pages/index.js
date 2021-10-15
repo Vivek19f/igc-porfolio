@@ -114,8 +114,8 @@ class IndexPage extends React.Component {
               className="video-player"
               height="100%"
               width="100%"
-              loop
               muted
+              preload
               autoPlay
             >
               <source src={video} type="video/mp4" />
