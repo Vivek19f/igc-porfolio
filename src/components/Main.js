@@ -17,6 +17,14 @@ import helios from '../images/Client-logos/Helios.png'
 import lincoln from '../images/Client-logos/lincoln.png'
 import nichono from '../images/Client-logos/Nichino.png'
 import nissin from '../images/Client-logos/Nissin.png'
+import leolife from '../images/Client-logos/leolife.jpg'
+import meditek from '../images/Client-logos/meditek.jpg'
+import gujratterce from '../images/Client-logos/gujratterce.png'
+import alloes from '../images/Client-logos/alloes.png'
+import accord from '../images/Client-logos/accord.jpg'
+import sumitomo from '../images/Client-logos/sumitomo.jpg'
+import sudarshan from '../images/Client-logos/sudarshan.png'
+import crest from '../images/Client-logos/crest.png'
 
 class Main extends React.Component {
   render() {
@@ -88,12 +96,19 @@ class Main extends React.Component {
             <img src={amaraRaja} alt="" />
             <img src={argroup} alt="" />
             <img src={eveready} alt="" />
-            <img src={argroup} alt="" />
+            <img src={leolife} alt="" />
             <img src={exide} alt="" />
             <img src={helios} alt="" />
             <img src={lincoln} alt="" />
             <img src={nichono} alt="" />
             <img src={nissin} alt="" />
+            <img src={meditek} alt="" />
+            <img src={gujratterce} alt="gujratterce" />
+            <img src={alloes} alt="" />
+            <img src={accord} alt="" />
+            <img src={sumitomo} alt="" />
+            <img src={sudarshan} alt="" />
+            <img src={crest} alt="" />
           </div>
 
           {close}
@@ -128,7 +143,7 @@ class Main extends React.Component {
             <h3>Indore Office</h3>
             <ul>
               <li>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <i className="fa fa-map-marker" aria-hidden="true"></i>
                 <small>
                   Godown No 22, Roshan Compound, Dewas Naka,
                   <br /> Indore, Madhaya Pradesh
@@ -136,15 +151,15 @@ class Main extends React.Component {
               </li>
 
               <li>
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i className="fa fa-phone" aria-hidden="true"></i>
                 <small>0731-4048469</small>
               </li>
               <li>
-                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <i className="fa fa-mobile" aria-hidden="true"></i>
                 <small>+91-9303444449</small>
               </li>
               <li>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <i className="fa fa-envelope" aria-hidden="true"></i>
                 <small>igcindore808@gmail.com</small>
               </li>
             </ul>
@@ -153,7 +168,7 @@ class Main extends React.Component {
             <h3>Ahmedabad Office</h3>
             <ul>
               <li>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <i className="fa fa-map-marker" aria-hidden="true"></i>
                 <small>
                   Godown No 4, Gopinath Estate near Sardarji ka Dhaba, NH8
                   <br /> Aslali Bypass, Aslali, Ahmedabad, Gujrat
@@ -161,15 +176,15 @@ class Main extends React.Component {
               </li>
 
               <li>
-                <i class="fa fa-phone" aria-hidden="true"></i>
+                <i className="fa fa-phone" aria-hidden="true"></i>
                 <small>079-29708750</small>
               </li>
               <li>
-                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <i className="fa fa-mobile" aria-hidden="true"></i>
                 <small>+91-9303444449</small>
               </li>
               <li>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <i className="fa fa-envelope" aria-hidden="true"></i>
                 <small>igcahmedabad808@gmail.com</small>
               </li>
             </ul>

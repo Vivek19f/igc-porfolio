@@ -15,6 +15,7 @@ class IndexPage extends React.Component {
       articleTimeout: false,
       article: '',
       loading: 'is-loading',
+      screenWidth: 0,
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
@@ -27,6 +28,10 @@ class IndexPage extends React.Component {
       this.setState({ loading: '' })
     }, 100)
     document.addEventListener('mousedown', this.handleClickOutside)
+
+    if (typeof window !== 'undefined') {
+      this.setState({ screenWidth: window.innerWidth })
+    }
   }
 
   componentWillUnmount() {
@@ -109,18 +114,24 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          <div id="bg">
-            <video
-              className="video-player"
-              height="100%"
-              width="100%"
-              muted
-              preload
-              autoPlay
-            >
-              <source src={video} type="video/mp4" />
-            </video>
-          </div>
+
+          {this.state?.screenWidth < 500 ? (
+            <div id="mobile-bg"></div>
+          ) : (
+            <div id="bg">
+              <video
+                className="video-player"
+                height="100%"
+                width="100%"
+                muted
+                preload
+                autoPlay
+              >
+                {' '}
+                <source src={video} type="video/mp4" />
+              </video>
+            </div>
+          )}
         </div>
       </Layout>
     )
